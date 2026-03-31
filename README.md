@@ -7,7 +7,7 @@ Format `.beancount` files using [bean-format](https://beancount.github.io/docs/r
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/whtsky/pre-commit-beancount-format
+- repo: https://github.com/kapinga/pre-commit-beancount-format
   rev: "2.3.4" # Use the sha / tag you want to point at
   hooks:
     - id: beancount-format
@@ -16,7 +16,7 @@ Add this to your `.pre-commit-config.yaml`:
 Or, if you use `.bean` as your beancount files' extensions rather than `.beancount`:
 
 ```yaml
-- repo: https://github.com/whtsky/pre-commit-beancount-format
+- repo: https://github.com/kapinga/pre-commit-beancount-format
   rev: "2.3.4" # Use the sha / tag you want to point at
   hooks:
     - id: beancount-format
@@ -26,7 +26,7 @@ Or, if you use `.bean` as your beancount files' extensions rather than `.beancou
 To use custom arguments:
 
 ```yaml
-- repo: https://github.com/whtsky/pre-commit-beancount-format
+- repo: https://github.com/kapinga/pre-commit-beancount-format
   rev: "2.3.4" # Use the sha / tag you want to point at
   hooks:
     - id: beancount-format
