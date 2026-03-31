@@ -2,5 +2,5 @@
   name: Run bean-format
   description: Let bean-format format your beancount files.
   entry: bean-format
-  language: system
+  language: python
   files: .*\.bean(count)?$
