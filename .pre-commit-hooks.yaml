@@ -3,4 +3,4 @@
   description: Let bean-format format your beancount files.
   entry: bean-format
   language: system
-  files: \.bean(count)?$
+  files: .*\.bean(count)?$
